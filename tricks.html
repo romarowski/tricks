@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<html>
+<style>
+table, th, td {
+border:1px solid black;
+}
+</style>
+<body>
+
+<h1>Tricks to remember</h1>
+
+<table style="width:70%">
+  <tr>
+    <th>Program</th>
+    <th>Action</th>
+    <th>Howto</th>
+  </tr>
+  <tr>
+    <td>VIM</td>
+    <td>browse files in visual mode (equivalent to l)</td>
+    <td>:e [/directory/]</td>
+  </tr>
+  <tr>
+    <td>shell</td>
+    <td>get side by side diff of two files</td>
+    <td>diff -y -W 72 file1 file2 </td>
+  </tr>
+  <tr>
+    <td>shell</td>
+    <td>diff output</td>
+    <td>'|' lines differ;  <br>
+	 '&#62;' line only in file2 <br>
+	 '&#60;' line only on file1 </td>
+  </tr>
+  <tr>
+    <td>python datetime</td>
+    <td>get current time in good format</td>
+    <td> now = datetime.datetime.now() <br> 
+	 date_time = now.strftime("%m%d%YT%H%M%S")</td>
+  </tr>
+  <tr>
+    <td>shell script</td>
+    <td>pass a variable to script</td>
+    <td>script.sh var1 var2 ... varn <br>
+        inside the script these are called using $1, $2, ..., $n </td>
+  </tr>
+  <tr>
+	  <td><a href="(https://github.com/iamcco/markdown-preview.nvim)">VIM Markdown</a> </td>
+    <td>preview markdown on Browser when editing on VIM</td>
+    <td>:MarkdownPreview </td>
+  </tr>
+</table>
+
+</body>
+</html>
