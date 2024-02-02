@@ -65,6 +65,18 @@ border:1px solid black;
     <td>install local package with symlink</td>
 		<td>pip install -e [/dir2pkg/]</td>
   </tr>
+  <tr>
+    <td>installing *.tar.gz</td>
+    <td>install compressed binaries in linux</td>
+    <td>tar -xvzf tool_v0.1.tar.gz <br>
+        ./tool_v0.1.tar.gz #typically is an executable
+        <br><br>
+        after installation move the file to /opt/ and create symlink to /usr/bin
+        <br><br>
+        sudo mv tool_v0.1.tar.gz /opt/ <br>
+        sudo ln -s /opt/tool_v0.1.tar.gz /usr/bin/tool
+    </td>
+  </tr>
 </table>
 
 </body>
